@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: SHMS-py
+Version: 0.0.1
+Summary: Python library for smap satellite soil moisture data
+Home-page: http://shms.ut.ac.ir
+Author: Morteza Khazaei
+Author-email: Mortezakhazaei1370@gmail.com
+License: GNU GPL 2 or later
+Description: ===========
+        SHMS_py
+        ===========
+        
+        To use the SHMS_py, you must do the following:::
+        
+            from SHMS_py import DisPATCh
+        
+        	source = DisPATCh.DISPATCH(hdfFile=df_MOD09GQ + '\\' + MOD09GQ, MOD11A1=df_MOD11A1 + '\\' + MOD11A1, h5File=fullPath, ndv=None)
+        	SMhr = source.disaggregated
+        	source.save_tif_1km(inputRaster=SMhr, file_path=file_dir, fileName=soilMositure_fullname)
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

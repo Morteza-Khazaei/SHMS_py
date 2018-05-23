@@ -1,0 +1,14 @@
+GDAL
+numpy
+pymodis
+requests
+osr
+numexpr
+gdalnumeric
+datetime
+osgeo
+psycopg2
+inspect
+suds
+xml
+zipfile
