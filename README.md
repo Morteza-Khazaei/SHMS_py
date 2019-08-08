@@ -1,6 +1,6 @@
-===========
+============================================================================================
 SHMS_py
-===========
+============================================================================================
 
 To use the SHMS_py, you must do the following:::
 
@@ -10,4 +10,5 @@ To use the SHMS_py, you must do the following:::
 	SMhr = source.disaggregated
 	source.save_tif_1km(inputRaster=SMhr, file_path=file_dir, fileName=soilMositure_fullname)
 
-
+============================================================================================
+SHMS website: http://185.105.184.53/en
